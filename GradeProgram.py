@@ -1,13 +1,13 @@
-def Grade(Score):
-    if Score >= 90 and Score <= 100:
+def Grade(score):
+    if score >= 90 and score <= 100:
         return "A"
-    elif Score >= 80 and Score < 90:
+    elif score >= 80 and score < 90:
         return "B"
-    elif Score >= 70 and Score < 90:
+    elif score >= 70 and score < 90:
         return "C"
-    elif Score >= 60 and Score < 70:
+    elif score >= 60 and score < 70:
         return "D"
-    elif Score >= 0 and Score < 60:
+    elif score >= 0 and score < 60:
         return "F"
     else:
         return "error"
